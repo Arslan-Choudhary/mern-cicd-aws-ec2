@@ -8,4 +8,4 @@ RUN npm install && npm run build
 
 FROM nginx:alpine
 
-COPY --from=bulid /app/build /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
