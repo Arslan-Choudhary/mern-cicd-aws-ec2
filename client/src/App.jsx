@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-     <h1>CI/CD pipelines with github actions</h1>
+     <h1>CI/CD pipelines with github actions {1}</h1>
     </>
   )
 }
